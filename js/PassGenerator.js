@@ -1,7 +1,7 @@
-function getPassword16(){
+function getPassword8(){
 
     var chars = "0123456789101002281337ABCDISDFKLkdfjglsdfkJSDKLFJSKLDFJKLSDFJKLSDJFKLD";
-    var passwordLength = 16;
+    var passwordLength = 8;
     var password = "";
 
     for (var i=0; i<passwordLength; i++){
@@ -10,10 +10,10 @@ function getPassword16(){
     }
     document.getElementById("password").value = password
 }
-function getPassword8(){
+function getPassword16(){
 
     var chars = "0123456789101002281337ABCDISDFKLkdfjglsdfkJSDKLFJSKLDFJKLSDFJKLSDJFKLD";
-    var passwordLength = 8;
+    var passwordLength = 16;
     var password = "";
 
     for (var i=0; i<passwordLength; i++){
